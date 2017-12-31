@@ -1,6 +1,6 @@
 
 class Application
-  resp = Rack::Responses.new
+  resp = Rack::Response.new
   time = Time.new
 
 end
